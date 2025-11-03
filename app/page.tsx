@@ -31,18 +31,21 @@ export default function Home() {
               </Link>
             </div>
           </div>
+
           <div className="md:w-1/2 flex justify-center">
-          {/* iframe da pagina */}
+            {/* Embed oficial do YouTube */}
             <div className="relative w-full max-w-md h-64 md:h-80 rounded-lg overflow-hidden shadow-lg border border-gray-200">
               <iframe
-              src="https://grenn-pi.vercel.app/"
-              title="Preview do Projeto"
-              className="w-full h-full"
-              loading="lazy"
-              sandbox="allow-scripts allow-same-origin allow-popups"
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/M0UlGJYyjx0" // substitua pelo ID real
+                title="Vídeo explicativo"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="w-full h-full"
               />
             </div>
-            {/* fim do iframe */}
           </div>
         </div>
       </section>
