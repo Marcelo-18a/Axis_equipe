@@ -5,32 +5,32 @@ export default function SobrePage() {
   const teamMembers = [
     {
       name: "Marcelo Augusto",
-      role: "Developer, 19 anos",
+      role: "Developer, 20 anos",
       description:
         "desenvolvimento web full stack. Busco aprimorar minhas habilidades em Node.js, Express e React.",
       imageUrl: "/team/Marcelo_ft.png",
     },
     {
       name: "Yago Kurashiki",
-      role: "Developer, 19 anos",
+      role: "Developer, 20 anos",
       description:
         "desenvolvimento full-stack. Atua na área de TI e busca aprimorar habilidades em Java Spring Boot e React.",
       imageUrl: "/team/yago_ft.png",
     },
     {
       name: "Carlos Eduardo",
-      role: "Developer Back-End, 19 anos",
+      role: "Developer Back-End, 20 anos",
       description:
         "desenvolvimento de software focado no back-end. Atualmente, estou aprofundando meus conhecimentos na stack MERN (MongoDB, Express, React e Node.js).",
       // Coloque a imagem deste membro em `public/team/carlos.jpg`
       imageUrl: "./team/kadu_ft.png",
     },
     {
-      name: "Sthevens Konesuk",
-      role: "Developer Back-End, 20 anos",
+      name: "Filipe de Oliveira",
+      role: "UX/UI Designer, 20 anos",
       description:
-        "com experiência na segurança, infraestrutura, administração das redes, configuração de servidores e monitoramento de servidores.",
-      imageUrl: "/team/sthevens_ft.png",
+        "Designer UX/UI focado em criar interfaces modernas, intuitivas e funcionais, proporcionando a melhor experiência para o usuário e aumentando a conversão de produtos digitais.",
+      imageUrl: "/team/filipe.png",
     },
   ];
 
