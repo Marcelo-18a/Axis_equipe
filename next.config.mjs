@@ -8,6 +8,13 @@ const nextConfig = {
   },
   images: {
     unoptimized: true,
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "thelimaleo.github.io",
+        pathname: "/Prototipo_site_PI/**",
+      },
+    ],
   },
 }
 
