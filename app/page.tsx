@@ -38,7 +38,7 @@ export default function Home() {
               <iframe
                 width="100%"
                 height="100%"
-                src="https://www.youtube.com/embed/M0UlGJYyjx0" // substitua pelo ID real
+                src="https://www.youtube.com/embed/Pe9BEsQLYvY" // substitua pelo ID real
                 title="Vídeo explicativo"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

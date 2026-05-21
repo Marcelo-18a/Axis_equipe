@@ -14,7 +14,7 @@ export default function TeamMember({ name, role, description, imageUrl }: TeamMe
         <Image src={imageUrl || "/placeholder.svg"} alt={name} fill className="object-cover" />
       </div>
       <h3 className="text-xl font-bold mb-2">{name}</h3>
-      <p className="font-semibold text-primary mb-2">{role}</p>
+      <p className="font-semibold text-primary mb-2 whitespace-nowrap">{role}</p>
       <p className="text-center text-sm">{description}</p>
     </div>
   )

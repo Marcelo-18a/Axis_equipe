@@ -2,20 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
 :root {
-  --foreground-rgb: 255, 255, 255;
-  --background-start-rgb: 0, 0, 0;
-  --background-end-rgb: 0, 0, 0;
-  --primary-color: #ffcc00;
+  --foreground-rgb: 72, 72, 72;
+  --background-start-rgb: 245, 245, 245;
+  --background-end-rgb: 245, 245, 245;
+  --primary-color: #57B846;
 }
 
 body {
   color: rgb(var(--foreground-rgb));
   background: rgb(var(--background-start-rgb));
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Montserrat, sans-serif;
 }
 
 @layer utilities {
@@ -26,22 +25,22 @@ body {
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 0 0% 3.9%;
+    --background: 0 0% 96.1%;
+    --foreground: 0 0% 28%;
     --card: 0 0% 100%;
-    --card-foreground: 0 0% 3.9%;
+    --card-foreground: 0 0% 28%;
     --popover: 0 0% 100%;
-    --popover-foreground: 0 0% 3.9%;
-    --primary: 0 0% 9%;
-    --primary-foreground: 0 0% 98%;
-    --secondary: 0 0% 96.1%;
-    --secondary-foreground: 0 0% 9%;
+    --popover-foreground: 0 0% 28%;
+    --primary: 103 59% 53%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 0 0% 28%;
+    --secondary-foreground: 0 0% 100%;
     --muted: 0 0% 96.1%;
-    --muted-foreground: 0 0% 45.1%;
-    --accent: 0 0% 96.1%;
-    --accent-foreground: 0 0% 9%;
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 98%;
+    --muted-foreground: 0 0% 28%;
+    --accent: 103 59% 53%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 100% 62%;
+    --destructive-foreground: 0 0% 100%;
     --border: 0 0% 89.8%;
     --input: 0 0% 89.8%;
     --ring: 0 0% 3.9%;
@@ -60,23 +59,24 @@ body {
     --sidebar-border: 220 13% 91%;
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
+
   .dark {
-    --background: 0 0% 3.9%;
-    --foreground: 0 0% 98%;
-    --card: 0 0% 3.9%;
-    --card-foreground: 0 0% 98%;
-    --popover: 0 0% 3.9%;
-    --popover-foreground: 0 0% 98%;
-    --primary: 0 0% 98%;
-    --primary-foreground: 0 0% 9%;
-    --secondary: 0 0% 14.9%;
-    --secondary-foreground: 0 0% 98%;
-    --muted: 0 0% 14.9%;
-    --muted-foreground: 0 0% 63.9%;
-    --accent: 0 0% 14.9%;
-    --accent-foreground: 0 0% 98%;
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 0 0% 98%;
+    --background: 0 0% 15%;
+    --foreground: 0 0% 96.1%;
+    --card: 0 0% 20%;
+    --card-foreground: 0 0% 96.1%;
+    --popover: 0 0% 20%;
+    --popover-foreground: 0 0% 96.1%;
+    --primary: 103 59% 53%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 0 0% 96.1%;
+    --secondary-foreground: 0 0% 15%;
+    --muted: 0 0% 30%;
+    --muted-foreground: 0 0% 70%;
+    --accent: 103 59% 53%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 100% 62%;
+    --destructive-foreground: 0 0% 100%;
     --border: 0 0% 14.9%;
     --input: 0 0% 14.9%;
     --ring: 0 0% 83.1%;
@@ -97,10 +97,34 @@ body {
 
   h1 {
     @apply text-4xl font-bold;
+    font-size: 29.51px;
+    font-family: Montserrat, sans-serif;
   }
+
+  h2 {
+    font-size: 24px;
+    font-family: Montserrat, sans-serif;
+  }
+
+  h3 {
+    font-size: 20px;
+    font-family: Montserrat, sans-serif;
+  }
+
+  body {
+    font-size: 18.04px;
+    font-family: Montserrat, sans-serif;
+  }
+
+  button {
+    font-size: 15px;
+    font-family: Montserrat, sans-serif;
+  }
+
   h2 {
     @apply text-3xl font-bold;
   }
+
   h3 {
     @apply text-2xl font-bold;
   }
@@ -108,6 +132,7 @@ body {
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground;
   }

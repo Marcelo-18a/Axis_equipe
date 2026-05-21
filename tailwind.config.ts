@@ -10,9 +10,12 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ["Montserrat", "sans-serif"],
+      },
       colors: {
-        primary: "#ffcc00",
-        dark: "#111111",
+        primary: "#57B846",
+        dark: "#484848",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         card: {
